@@ -2,6 +2,7 @@
 # jekunu data
 # jodi, same type er data ekloge thake, taile oita array, R naile list
 # sob array list, kintu sob list array na
+# # list lekha hoy [e1,e2]
 
 # list
 l1 = [1,2,3,4,5]
@@ -46,3 +47,17 @@ print(last_el1,last_el2)
 max = max(l1)
 min = min(l1)
 print(max,min)
+
+# element add
+names = ["shayan", "bhadra", "prasanta"]
+print("name",names)
+names.append("supratim")
+print("name",names)
+
+# remove elements
+names.remove("shayan")
+print(names)
+
+# last element remove
+names.pop()
+print(names)
